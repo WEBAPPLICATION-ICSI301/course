@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web Applications — NUM</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container">
+    <a class="navbar-brand brand-lockup text-decoration-none" href="./index.html">
+      <!-- Use SVG if you downloaded it; otherwise change to num-logo.png -->
+      <img src="./assets/img/site-logo.png" alt="NUM logo" onerror="this.onerror=null;this.src='./assets/img/site-logo.png';">
+      <div class="lh-sm">
+        <div class="fw-semibold" style="color: var(--num-blue);">National University of Mongolia</div>
+        <div class="brand-subtitle">Web Applications (CS142-style)</div>
+      </div>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topnav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="topnav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./info.html">Class Info</a></li>
+        <li class="nav-item"><a class="nav-link" href="./lectures.html">Lectures</a></li>
+        <li class="nav-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="./staff.html">Staff</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5">
+  <div class="container">
+    <h1 class="display-6 fw-bold mb-2">Web Applications</h1>
+    <p class="lead mb-4">
+      This course introduces modern web technologies and gives hands-on experience building web applications.
+      
+    </p>
+
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Announcements <small>(latest)</small></h5>
+            <ul class="mb-0">
+              <li>Week 1 materials posted</li>
+              <li>Project 1 released</li>
+              <li>Office hours schedule updated</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <ul class="mb-0">
+              <li><a href="./info.html">Syllabus & grading</a></li>
+              <li><a href="./lectures.html">Lecture schedule</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Contact</h5>
+            <div>Instructor: <strong>Amarsanaa Ganbold</strong></div>
+            <div>Email: <a href="mailto:amarsanaag@num.edu.mn">amarsanaag@num.edu.mn</a></div>
+            <div class="mt-2">Class team: <a href="#">Link</a></div>
+          </div>
+          <div class="card-body">
+            
+            <div>Instructor: <strong>Uitumen Jamyansuren</strong></div>
+            <div>Email: <a href="mailto:uitumen@num.edu.mn">uitumen@num.edu.mn</a></div>
+            <div class="mt-2">Class team: <a href="#">Link</a></div>
+          </div>
+          <div class="card-body">
+            
+            <div>Instructor: <strong>Javkhlan Rentsendorj</strong></div>
+            <div>Email: <a href="mailto:r.javkhlan@num.edu.mn">r.javkhlan@num.edu.mn</a></div>
+            <div class="mt-2">Class team: <a href="#">Link</a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<main class="container py-5">
+  <h2 class="h4 mb-3">Course Description</h2>
+  <p>
+    Web apps combine markup, scripting, networks, interactive graphics, and data storage.
+    The goal is to build full-stack thinking and strong fundamentals, with projects and a final demo.
+  </p>
+
+  <div class="alert alert-primary mt-4" role="alert" style="border-color: rgba(11,58,106,.2);">
+    Tip: Keep everything static (HTML/CSS/JS + assets) so GitHub Pages can host it with zero build step.
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container small">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+      <div>© <span id="y"></span> National University of Mongolia — Course Website</div>
+      <div>Built as a static site (GitHub Pages).</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

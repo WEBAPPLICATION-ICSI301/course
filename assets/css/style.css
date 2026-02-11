@@ -1,0 +1,50 @@
+:root{
+  --num-blue: #0b3a6a;   /* tweak if you have official brand hex */
+  --num-blue-dark: #072a4d;
+}
+
+body{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
+}
+
+.navbar{
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.profile img {
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.brand-lockup{
+  display:flex;
+  align-items:center;
+  gap:.6rem;
+}
+
+.brand-lockup img{
+  height: 34px;
+  width:auto;
+}
+
+.brand-subtitle{
+  font-size: .85rem;
+  opacity: .85;
+}
+
+.hero{
+  background: linear-gradient(180deg, rgba(11,58,106,.10), rgba(11,58,106,0));
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.card-title small{
+  opacity: .75;
+  font-weight: 500;
+}
+
+.footer{
+  border-top: 1px solid rgba(0,0,0,.08);
+  margin-top: 3rem;
+  padding: 2rem 0;
+  opacity: .9;
+}

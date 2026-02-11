@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Staff — Web Applications (NUM)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container">
+    <a class="navbar-brand brand-lockup text-decoration-none" href="./index.html">
+      <img src="./assets/img/site-logo.png" alt="NUM logo" onerror="this.onerror=null;this.src='./assets/img/site-logo.png';">
+      <div class="lh-sm">
+        <div class="fw-semibold" style="color: var(--num-blue);">National University of Mongolia</div>
+        <div class="brand-subtitle">Web Applications (CS142-style)</div>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topnav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="topnav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./info.html">Class Info</a></li>
+        <li class="nav-item"><a class="nav-link" href="./lectures.html">Lectures</a></li>
+        <li class="nav-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link active" href="./staff.html">Staff</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-5">
+  <h1 class="h3 fw-bold mb-3">Course Staff</h1>
+
+  <div class="row g-3">
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="fw-semibold">Instructor</div>
+          <div class="profile">
+            <img src="./assets/img/teachers/amarsanaa.jpeg"/ alt="Amarsanaa">
+          </div>
+          <div>Amarsanaa Ganbold</div>
+          <div class="small text-muted">amarsanaag@num.edu.mn</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="fw-semibold">Instructor</div>
+          <div class="profile">
+            <img src="./assets/img/teachers/uitumen.jpeg"/ alt="Uitumen">
+          </div>
+          <div>Uitumen Jamyansuren</div>
+          <div class="small text-muted">uitumen@num.edu.mn</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="fw-semibold">Instructor</div>
+          <div class="profile">
+            <img src="./assets/img/teachers/javkhlan.jpeg"/ alt="Javkhlan">
+          </div>
+          <div>Javkhlan Rentsendorj</div>
+          <div class="small text-muted">r.javkhlan@num.edu.mn</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="fw-semibold">Teaching Assistant</div>
+          <div class="profile">
+            <img src="./assets/img/teachers/sarnai.jpeg"/ alt="Sarnai">
+          </div>
+          <div>Sarnai Gantulga</div>
+          <div class="small text-muted">sarnai.g@num.edu.mn</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container small">© <span id="y"></span> NUM</div>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
